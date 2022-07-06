@@ -32,7 +32,7 @@ public class Arquivos {
 		pessoas.add(pessoa3);
 
 		// biblioteca de leitura do Java, passando o endereço do arquivo completo
-		File arquivo = new File("C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\aquivo.txt");
+		File arquivo = new File("C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\arquivo.txt");
 		// negando o arquivo
 		if (!arquivo.exists()) {
 			arquivo.createNewFile();
