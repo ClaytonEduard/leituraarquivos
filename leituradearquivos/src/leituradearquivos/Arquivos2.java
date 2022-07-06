@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Arquivos {
+public class Arquivos2 {
 	public static void main(String[] args) throws IOException {
 
 		// instanciando a classe pessoa
@@ -33,7 +33,7 @@ public class Arquivos {
 		pessoas.add(pessoa3);
 
 		// biblioteca de leitura do Java, passando o endereço do arquivo completo
-		File arquivo = new File("C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\aquivo.txt");
+		File arquivo = new File("C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\arquivo.csv");
 		// negando o arquivo
 		if (!arquivo.exists()) {
 			arquivo.createNewFile();
