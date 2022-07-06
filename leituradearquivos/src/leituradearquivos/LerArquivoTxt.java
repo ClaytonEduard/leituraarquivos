@@ -12,6 +12,7 @@ public class LerArquivoTxt {
 				new File("C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\arquivo.txt"));
 
 		// lendo as linhas
+		@SuppressWarnings("resource")
 		Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");
 
 		// lendo o arquivo
