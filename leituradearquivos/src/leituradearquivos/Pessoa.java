@@ -1,6 +1,10 @@
 package leituradearquivos;
 
 public class Pessoa {
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", email=" + email + ", idade=" + idade + "]";
+	}
 	private String nome;
 	private String email;
 	private int idade;
