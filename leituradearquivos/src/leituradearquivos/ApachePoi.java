@@ -14,7 +14,7 @@ public class ApachePoi {
 
 	public static void main(String[] args) throws Exception {
 		File file = new File(
-				"C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\arquivo_excel.xls");
+				"C:\\Users\\Clayt\\git\\leituraarquivos\\leituradearquivos\\src\\arquivo_excel.xls");
 
 		// verificar se existe o arquivo criado
 		if (!file.exists()) {
