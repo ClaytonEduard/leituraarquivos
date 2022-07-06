@@ -23,7 +23,7 @@ public class Arquivos2 {
 		Pessoa pessoa3 = new Pessoa();
 		pessoa3.setEmail("joao@hotmail.com");
 		pessoa3.setIdade(41);
-		pessoa3.setNome("João");
+		pessoa3.setNome("Joao");
 
 		// colocar as pessoas dentro de umalista
 		List<Pessoa> pessoas = new ArrayList<Pessoa>();
@@ -40,15 +40,6 @@ public class Arquivos2 {
 		// escrevendo um arquivo
 		FileWriter escreverArquivo = new FileWriter(arquivo);
 
-		escreverArquivo.write("Meu texto do arquivo");
-		// nova linha
-		escreverArquivo.write("\n");
-		escreverArquivo.write("Segunda linha \n");
-
-		for (int i = 1; i <= 10; i++) {
-			escreverArquivo.write("Meu texto do arquivo " + i + " \n");
-
-		}
 		for (Pessoa p : pessoas) {
 			escreverArquivo.write(p.getNome() + ";" + p.getEmail() + ";" + p.getIdade() + "\n");
 		}

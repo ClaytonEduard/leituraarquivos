@@ -34,6 +34,7 @@ public class LerArquivoCsv {
 				
 				pessoas.add(pessoa);
 			}
+			
 		}
 	}
 
